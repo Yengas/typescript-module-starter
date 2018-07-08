@@ -7,6 +7,9 @@ lib
 # Generated docs
 docs
 
+# Web build directory
+web-build
+
 # Logs
 logs
 *.log
