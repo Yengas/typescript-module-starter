@@ -8,7 +8,7 @@ package-lock.json
 lib
 
 # Generated docs
-docs
+docs-build
 
 # Web build directory
 web-build

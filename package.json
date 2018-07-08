@@ -24,7 +24,7 @@
     "test": "jest",
     "lint": "tslint src/**/*.ts __tests__/**/*.ts",
     "docs": "npm run docs:html",
-    "docs:html": "typedoc src/ --target ES6 --mode file --out docs",
+    "docs:html": "typedoc src/ --target ES6 --mode file --out docs-build",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
