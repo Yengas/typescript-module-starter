@@ -6,6 +6,7 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "build:web": "webpack",
     "test": "jest",
     "lint": "tslint src/**/*.ts __tests__/**/*.ts",
     "docs": "npm run docs:html",
@@ -25,9 +26,12 @@
   "devDependencies": {
     "jest": "^23.3.0",
     "ts-jest": "^23.0.0",
+    "ts-loader": "^4.4.2",
     "tslint": "^5.10.0",
     "typedoc": "^0.11.1",
-    "typescript": "^2.9.2"
+    "typescript": "^2.9.2",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
   },
   "jest": {
     "moduleFileExtensions": [
