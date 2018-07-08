@@ -21,5 +21,9 @@ module.exports = {
       ]
     }],
   },
+  // add dependencies that you don't want to be compiled with your project here
+  externals: {
+
+  },
   target: 'web',
 };
