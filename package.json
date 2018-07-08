@@ -4,13 +4,15 @@
   "description": "Simple typescript starter for personal projects.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "files": [ "lib/" ],
   "scripts": {
     "build": "tsc",
     "build:web": "webpack",
     "test": "jest",
     "lint": "tslint src/**/*.ts __tests__/**/*.ts",
     "docs": "npm run docs:html",
-    "docs:html": "typedoc src/ --target ES6 --mode file --out docs"
+    "docs:html": "typedoc src/ --target ES6 --mode file --out docs",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "ts",
