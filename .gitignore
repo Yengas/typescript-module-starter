@@ -1,3 +1,6 @@
+# Add package-lock to gitignore
+package-lock.json
+
 # IntellijIdea
 .idea
 

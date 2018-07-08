@@ -1,7 +1,18 @@
 {
+  "author": "Yengas",
   "name": "typescript-module-starter",
-  "version": "1.0.0",
   "description": "Simple typescript starter for personal projects.",
+  "keywords": [
+    "ts",
+    "module",
+    "starter",
+    "tsdoc",
+    "webbuild",
+    "jest",
+    "tslint"
+  ],
+  "version": "1.0.0",
+  "license": "ISC",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [ "lib/" ],
@@ -14,17 +25,6 @@
     "docs:html": "typedoc src/ --target ES6 --mode file --out docs",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [
-    "ts",
-    "module",
-    "starter",
-    "tsdoc",
-    "webbuild",
-    "jest",
-    "tslint"
-  ],
-  "author": "Yengas",
-  "license": "ISC",
   "devDependencies": {
     "jest": "^23.3.0",
     "ts-jest": "^23.0.0",
