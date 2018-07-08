@@ -15,7 +15,9 @@
   "license": "ISC",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "files": [ "lib/" ],
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "build": "tsc",
     "build:web": "webpack",
@@ -26,6 +28,8 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "@types/node": "^10.5.2",
     "jest": "^23.3.0",
     "ts-jest": "^23.0.0",
     "ts-loader": "^4.4.2",
