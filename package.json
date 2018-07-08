@@ -6,7 +6,10 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "lint": "tslint src/**/*.ts __tests__/**/*.ts",
+    "docs": "npm run docs:html",
+    "docs:html": "typedoc src/ --target ES6 --mode file --out docs"
   },
   "keywords": [
     "ts",
@@ -23,6 +26,7 @@
     "jest": "^23.3.0",
     "ts-jest": "^23.0.0",
     "tslint": "^5.10.0",
+    "typedoc": "^0.11.1",
     "typescript": "^2.9.2"
   },
   "jest": {
