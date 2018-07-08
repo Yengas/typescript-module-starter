@@ -1,0 +1,46 @@
+{
+  "name": "typescript-module-starter",
+  "version": "1.0.0",
+  "description": "Simple typescript starter for personal projects.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "ts",
+    "module",
+    "starter",
+    "tsdoc",
+    "webbuild",
+    "jest",
+    "tslint"
+  ],
+  "author": "Yengas",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.3.0",
+    "ts-jest": "^23.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.+(ts|js)"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    }
+  },
+  "dependencies": {}
+}
