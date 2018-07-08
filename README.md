@@ -10,4 +10,9 @@ This project is a lightweight, simple typescript starter to build node and web m
 - `npm run build:web` builds the project as a single vanilla js bundle, and outputs to web-build.
 
 ## Starting with this project
-Clone this project, remove the `.git` folder, change the information in [package.json](./package.json) and [webpack.config.js](./web.tsconfig.json) according to your own project's name, description, keywords and etc. Then you can roll your first commit to get going.
+
+- Remove the `.git` folder
+- Change the information in [package.json](./package.json) and [webpack.config.js](./web.tsconfig.json) according to your own project's name, description, keywords and etc. 
+- Change the README.md
+
+then you can roll your first commit to get going.
