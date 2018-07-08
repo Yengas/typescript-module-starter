@@ -12,7 +12,9 @@ This project is a lightweight, simple typescript starter to build node and web m
 ## Starting with this project
 
 - Remove the `.git` folder
-- Change the information in [package.json](./package.json) and [webpack.config.js](./web.tsconfig.json) according to your own project's name, description, keywords and etc. 
-- Change the README.md
+- Remove [src/index.ts](./src/index.ts) and [__tests__/index.ts])(./__tests__/index.ts) contents if you want to.
+- Change the information in [package.json](./package.json) according to your own project's name, description, keywords and etc. 
+- Change [webpack.config.js](./web.tsconfig.json) output library name.
+- Change the README.md, keep the commands if you would like to.
 
 then you can roll your first commit to get going.
